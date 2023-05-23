@@ -1,0 +1,13 @@
+<!--Template base, terá links para as webpages-->
+<!--Template/base.html-->
+<header>
+    <!--Tag url: utiliza os nomes patterns dado em urls.py como argumento - c
+    cria links-->
+    <a href="{% url 'home' %}">Home</a>
+    <a href="{% url 'about' %}">About</a>
+
+</header>
+
+<!--Adicionando block tag chamada content-->
+{% block content %}
+{% endblock %}
